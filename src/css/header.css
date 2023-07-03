@@ -1,0 +1,144 @@
+.header {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  background-color: var(--basic-background-color);
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.header-menu-list {
+  color: #141414;
+  text-align: center;
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+}
+
+.header-logo-nav {
+  color: var(--black);
+  text-align: center;
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.header-logo {
+  fill: var(--main-color-logo);
+}
+
+.header-basket-btn {
+  fill: var(--black);
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  line-height: 0;
+}
+
+.icon-basket {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 375px) {
+  .header-box {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-box {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-box {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-menu-list {
+    display: none;
+  }
+
+  .header-basket-btn {
+    display: none;
+  }
+
+  .header-mob-menu-burger {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+  }
+
+  .header-burger {
+    fill: var(--logo);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-mob-menu-burger {
+    display: none;
+  }
+
+  .header-menu-list {
+    gap: 14px;
+  }
+
+  .header-navigations {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-navigations {
+    margin-right: 120px;
+    gap: 86px;
+  }
+
+  .header-menu-item {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--black);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-navigations {
+    margin-right: 76px;
+    gap: 308px;
+  }
+
+  .icon-basket {
+    width: 24px;
+    height: 24px;
+  }
+}

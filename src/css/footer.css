@@ -1,0 +1,211 @@
+/* footer */
+.footer-veggieboost {
+    background-color: var(--light-green);
+    padding: 80px 0px;
+    flex-shrink: 0;
+}
+
+/* 
+.footer-veggieboost-container {
+    margin: 0 auto;
+
+    max-width: 335px;
+
+    display: flex;
+    flex-direction: column;
+    flex-shrink: inherit;
+
+} */
+
+
+/* 1 ---- footer logo and nav */
+.footer-veggieboost-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+}
+
+.img-footer {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.footer-logo-link {
+    text-decoration: none;
+    height: 18px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo-icon {
+    padding: auto auto;
+}
+
+.footer-logo-link:hover .footer-logo-icon,
+.footer-logo-link:focus .footer-logo-icon {
+    fill: var(--main-color-logo);
+}
+
+
+.span-footer-logo {
+    margin-left: 8px;
+    color: var(--black);
+
+    font-size: 14px;
+    font-family: DM Sans;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
+}
+
+.list-footer {
+    list-style: none;
+}
+
+.list-footer-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    gap: 20px;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 0;
+    /* max-width: 241px; */
+
+
+}
+
+/* .footer-logo-nav-list {
+    display: flex;
+} */
+
+.footer-nav-link {
+    text-decoration: none;
+    /* display: flex; */
+
+    color: var(--black);
+    text-align: center;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+
+}
+
+
+/* 2 ----- footer social media */
+.footer-veggieboost-social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.list-footer-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list-icon-social-media {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.footer-social-list-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 10px;
+    border: 1px solid var(--black);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.footer-social-media-icon {
+    fill: var(--black);
+}
+
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+    border-color: var(--green);
+}
+
+.footer-social-list-link:hover .footer-social-media-icon,
+.footer-social-list-link:focus .footer-social-media-icon {
+    fill: var(--green);
+}
+
+/* 3 ----- footer contact detailes */
+.footer-veggieboost-contact-detailes {
+    padding-top: 40px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.footer-contact-detailes-link {
+    color: var(--black);
+
+    text-decoration: none;
+
+    text-align: center;
+    font-size: 14px;
+    /* font-family: DM Sans; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    text-transform: uppercase;
+}
+
+.footer-contact-detailes-text {
+    width: 135px;
+
+    margin: 0 auto;
+    color: var(--black);
+
+    text-align: center;
+    font-size: 14px;
+    /* font-family: DM Sans; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.28px;
+}
